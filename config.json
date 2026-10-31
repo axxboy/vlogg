@@ -1,0 +1,20 @@
+{
+  "listen": "0.0.0.0:8080",
+  "transport": "ws",
+  "ws_path": "/",
+  "users": [
+    {
+      "id": "ec29e822-4f23-45d7-afcd-ca866c2e81df"
+    }
+  ],
+  "timeouts": {
+    "handshake_secs": 10,
+    "connect_secs": 10,
+    "session_secs": 900
+  },
+  "limits": {
+    "max_connections": 256,
+    "max_header_bytes": 4096,
+    "max_udp_packet_bytes": 65507
+  }
+}
