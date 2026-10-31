@@ -1,0 +1,2 @@
+# vlogg
+a virtual logger
